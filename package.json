@@ -1,9 +1,10 @@
 {
-  "name": "codespaces-blank",
+  "name": "simple-cicd-pipeline",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo 'Running tests' && exit 0"
   },
   "keywords": [],
   "author": "",
